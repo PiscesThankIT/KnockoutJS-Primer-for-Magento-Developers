@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="knockout-3.4.0.js"></script>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="ko-init.js"></script>
+</head>
+<body>
+<!-- <div id="main">
+    <h1 data-bind="text:title"></h1>
+    <h1 data-bind="text:getTitle()"></h1>
+    <p data-bind="text:content"></p>
+    <input type="text" data-bind="value:theValue"/>
+
+    <h1 data-bind="text:getTitle()"></h1>
+    <p data-bind="text:content"></p>
+    <select data-bind="value:theValue">
+        <option value="">-- Choose --</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>        
+        <option value="3">Third</option>                
+    </select>
+</div> -->
+
+<!-- <div id="main">
+    <p data-bind="text:theValue"></p>
+    <select data-bind="value:theValue">
+        <option value="">-- Choose --</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>        
+        <option value="3">Third</option>                
+    </select>    
+    <input type="text" data-bind="value:theValue"/>
+
+    <div>
+    <button id="button">Do It</button>
+    <button data-bind="click:pickRandomValue">Do It</button>
+    </div>
+</div> -->
+
+<!-- <div id="main">
+    <div id="one" data-bind="template:{'name':'hello-world','data':first}"></div>
+
+    <div id="two" data-bind="template:{'name':'hello-world','data':second}">
+    </div>
+
+    <script type="text/html" id="hello-world">
+        <h1 data-bind="text:theTitle"></h1>
+        <p data-bind="text:theContent"></p>
+    </script>
+</div> -->
+
+<!-- <div data-bind="component:'component-hello-world'"></div> -->
+<!-- <component-hello-world></component-hello-world> -->
+<!-- File: page.html -->  
+<div data-bind="pulseStormHelloWorld:message"></div>
+</body>
+</html>
